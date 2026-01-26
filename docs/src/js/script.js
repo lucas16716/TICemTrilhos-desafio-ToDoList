@@ -42,7 +42,7 @@
 
       input.value = "";
     } else {
-      alert("Ops, parece que você não digitou sua meta");
+      alert("Ops, você ainda não digitou sua meta");
     }
   });
 })();
