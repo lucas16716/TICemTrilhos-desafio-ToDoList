@@ -1,97 +1,80 @@
-<h1 align="center">DO IT LIST. ✅</h1>
+<div align="center">
 
-<div>
-  
-[![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
-[![Status](https://img.shields.io/badge/Status-Finalizado-blue)]()
+<img src="docs/assets/img/logomarca-icon.png" width="110" height="110" alt="Logo Do It List"/>
+
+# DO IT LIST
+
+**Aplicação web de lista de tarefas com identidade visual inspirada no "Just Do It" da Nike**
+
+*Ideia original — do conceito ao código*
+
+[![Status](https://img.shields.io/badge/status-concluído-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)]()&nbsp;
+[![Finalidade](https://img.shields.io/badge/finalidade-projeto%20autoral-e8e4de?style=flat-square&labelColor=orange&color=1c1b2e)]()&nbsp;
+[![Licença](https://img.shields.io/badge/licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)
 
 </div>
 
 <p align="center">
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#estruturação-do-projeto">Guia Repositório</a>
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#estrutura">Estrutura</a>
 </p>
 
-<h2>PROJETO</h2>
+<h2 id="projeto">PROJETO</h2>
 
-**Aplicação web clean e responsiva**, com identidade visual inspirada no conceito "Just Do It", da Nike. Trata-se de uma **lista de tarefas** que permite **adicionar, concluir e remover tarefas** com facilidade, além de oferecer a opção de alternar entre os **modos claro e escuro**, de acordo com a preferência do usuário.
+Aplicação web clean e responsiva para gerenciamento de tarefas, com identidade visual original inspirada na filosofia "Just Do It" da Nike. A ideia nasceu do conceito e foi desenvolvida do zero — do branding à implementação.
 
-- 🌐 <a href="https://lucas16716.github.io/do-it-list/">Acesse o site
-- 📹 <a href="https://www.instagram.com/p/DFlsQsCxGhY/">Vídeo do Projeto (Instagram)
+🌐 [Acesse o site](https://do-it-list.vercel.app/)&nbsp;&nbsp;|&nbsp;&nbsp;📹 [Vídeo do projeto](https://www.instagram.com/p/DFlsQsCxGhY/)
 
-<h2>FUNCIONALIDADES</h2>
+<h2 id="funcionalidades">FUNCIONALIDADES</h2>
 
-- 🗒️ Adicionar tarefas: Registre metas do dia;
-- ✅ Marcar como concluído: Sinalize tarefas feitas com um clique;
-- ❌ Remover tarefas: Exclua tarefas desnecessárias;
-- 🌓 Tema personalizável: Alterne entre temas com um clique;
-- 📲 Aplicação responsiva para otimização em todos os tipos de dispositivos;
-- ↕️ Barra de rolagem: adicionado no contêiner principal para melhor experiência do usuário na gestão de múltiplas tarefas.
+- **Gerenciamento de tarefas** — adicionar, marcar como concluída e remover com facilidade
+- **Temas personalizáveis** — alternância entre modo claro (amarelo) e escuro (azul)
+- **Barra de rolagem customizada** — melhor experiência na gestão de múltiplas tarefas
+- **Layout responsivo** — interface adaptada para todos os dispositivos
 
-<h4>Melhorias Futuras</h4>
+**Melhorias futuras**
+- Histórico de tarefas concluídas por data
+- Funcionalidade para editar tarefas existentes
+- Animações para adição e conclusão de tarefas
 
-- 🗃️ Histórico de tarefas concluídas por data;
-- ✍🏻 Funcionalidade para editar tarefas existentes;
-- 🎨 Animações mais elaboradas para adicionar ou finalizar tarefas.
+<h2 id="tecnologias">TECNOLOGIAS</h2>
 
-<h2>TECNOLOGIAS E FERRAMENTAS</h2>
+| Tecnologia | Uso |
+|---|---|
+| HTML5 | Estrutura semântica e acessível |
+| CSS3 | Estilos, temas com variáveis CSS e BEM |
+| JavaScript ES6+ | CRUD de tarefas e troca de tema via IIFE |
+| Canva | Design da marca |
+| Git/Github | Versionamento de código |
+| Vercel | Deploy do projeto |
 
-- **HTML5 →** Estrutura semântica e acessível;
-- **CSS3 →** Estilos responsivos, Temas (com Variáveis CSS) e organização BEM;
-- **JavaScript (ES6+) →** Interatividade (CRUD de tarefas, troca de tema), encapsulado via IIFE;
-- **Git/GitHub →** Controle de versionamento e hospedagem do código-fonte;
-- **Canva →** Criação de logos e mockup;
-- **GitHub Pages →** Plataforma de deploy contínuo.
+<h2 id="estrutura">ESTRUTURA</h2>
 
----
-
-<h2>ESTRUTURAÇÃO DO PROJETO</h2>
-
-```bash
+```
 📁 do-it-list
 ├── 📁 docs
 │   ├── 📂 src
 │   │   └── 📂 css
-│   │   │   └── styles.css       # Código CSS
-│   │   └── 📂 img               # Imagens do projeto
-│   │   │   └── 📂 dv            # Imagens adicionais
+│   │   │   └── styles.css        → Código CSS
+│   │   └── 📂 img                → Imagens do projeto
+│   │   │   └── 📂 dv             → Imagens adicionais
 │   │   └── 📂 js
-│   │       └── script.js        # Código JS
-│   └── index.html               # Página principal
-├── README.md                    # Documentação
-└── LICENSE                      # Licença
+│   │       └── script.js         → JS
+│   └── index.html                → Página principal
+├── README.md                    
+└── LICENSE
 ```
-
-<h2>CLONAR O REPOSITÓRIO</h2>
-
-1. Clone este repositório no seu computador:
-
-```
-git clone https://github.com/lucas16716/do-it-list.git
-```
-
-2. Abra o arquivo `index.html` no seu navegador:
-
-```
-cd do-it-list
-open index.html
-```
-
-<h2>CONTRIBUIÇÃO</h2>
-<h4>Contribuições são sempre bem-vindas! 🤝</h4>
-
-1. Faça um _fork_;
-2. Crie uma nova _branch_ (`git checkout -b minha-feature`);
-3. Faça _commit_ das alterações (`git commit -m 'Adicionei algo incrível!'`);
-4. Faça _push_ para a branch (`git push origin minha-feature`);
-5. Abra um _Pull Request_.
 
 ---
 
-<h2>📝 LICENÇA</h2>
-<p>Este projeto está licenciado sob a licença MIT. Confira os detalhes na documentação oficial.</p>
+<h2>LICENÇA</h2>
 
-<h2>🧑🏻‍💻 AUTOR </h2>
-<p>Desenvolvido por <a href="https://bio.site/lucascode">Lucas Code</a>.</p>
+Este projeto está licenciado sob a licença MIT.
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+<h2>AUTOR</h2>
+
+Desenvolvido por [Lucas Couto](https://linkedin.com/in/lucas-coutoti).  
+Conheça meu trabalho em [Lucas Code](https://bio.site/lucascode).
